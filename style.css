@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: #f7f7f7;
+}
+
+h1 {
+  text-align: center;
+}
+
+section {
+  background: #fff;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 800px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Responsive Design Section */
+.responsive-box {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #e3f2fd;
+  border: 1px solid #2196f3;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+@media (min-width: 600px) {
+  .responsive-box {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .responsive-box {
+    font-size: 20px;
+    padding: 30px;
+  }
+}
+
+/* Quiz Section */
+.quiz-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.quiz-container li {
+  margin-bottom: 10px;
+}
+
+.quiz-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.quiz-container button:hover {
+  background-color: #1565c0;
+}
+
+/* API Section */
+#joke {
+  margin-top: 15px;
+  font-style: italic;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #43a047;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #388e3c;
+}

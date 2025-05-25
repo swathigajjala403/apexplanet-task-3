@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CSS & JavaScript Internship Project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Internship Project: CSS & JavaScript</h1>
+
+  <!-- Responsive Design Section -->
+  <section>
+    <h2>1. Responsive Design using Media Queries</h2>
+    <div class="responsive-box">
+      Resize this window to see font size and padding change based on screen width.
+    </div>
+  </section>
+
+  <!-- Quiz Section -->
+  <section class="quiz-container">
+    <h2>2. JavaScript Interactive Quiz</h2>
+    <h3 id="question">Question will appear here</h3>
+    <ul>
+      <li><button class="answer">Option 1</button></li>
+      <li><button class="answer">Option 2</button></li>
+      <li><button class="answer">Option 3</button></li>
+      <li><button class="answer">Option 4</button></li>
+    </ul>
+    <p id="result"></p>
+  </section>
+
+  <!-- API Section -->
+  <section>
+    <h2>3. Fetch API – Joke Generator</h2>
+    <button onclick="getJoke()">Get a Random Joke</button>
+    <p id="joke">Click the button to load a joke.</p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
